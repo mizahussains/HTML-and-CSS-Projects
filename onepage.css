@@ -1,0 +1,23 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* ... (Rest of the CSS rules from the previous example) */
+
+/* Video Styles */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 10px;
+}
